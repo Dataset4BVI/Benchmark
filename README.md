@@ -11,7 +11,7 @@ Here we present a novel benchmark dataset with the associated challenge, that is
 
 ---
 
-1. Hardware setting
+**1. Hardware setting**
 
 |Property        | Characteristics        | Description                                              |
 |----------------|------------------------|----------------------------------------------------------|
@@ -33,7 +33,7 @@ Here we present a novel benchmark dataset with the associated challenge, that is
 |9-DOF IMU       |Magnetic Field Strength | Three axes of magnetic field sensing in micro Tesla (uT) |
 |                |Rotation                | Four point quaternion output                             |
 
- 2. Obstacle setting
+ **2. Obstacle setting**
  
  - A 15-meter-long corridor: One side of the corridor features a clean wall, while the other side is furnished with long sofas.
  - An ’L’-shaped laboratory: includes clean walls on one side, while the opposite side is occupied by long rows of tables.
@@ -41,8 +41,10 @@ Here we present a novel benchmark dataset with the associated challenge, that is
  
  ![Figure 1](https://github.com/Dataset4BVI/Benchmark/assets/136880140/d0de569a-59eb-4d84-8099-58cd668cdd60)
 
+To introduce variability and diversity, and to simulate real-world scenarios, different variables are introduced during the walk. This includes walking while maintaining different head orientations, such as facing forward, facing toward the right, or facing toward the left and making head turns. This also includes walking at different speeds, e.g. 0.5 m/s, 0.75 m/s, and 1 m/s.
  
- 3. Sensory dataset
+ 
+ **3. Sensory dataset**
 
 The sensory data are the raw data which are accompanied by timestamps, indicating the time at which each entry is created.
 Each entry contains two timestamps, one is the raw system time, and one is the converted time in the format of (HH: MM: SS). Each entry contains 20 sensory readings, including nine distance readings in centimetres from the ultrasonic sensors, one distance reading also in cm from the additional ultrasonic sensor, and 10 readings from the IMU. The 10 attributes are three axes of linear acceleration, three axes of gravitational acceleration, and four attributes derived from quaternion calculations
@@ -52,7 +54,7 @@ Each entry contains two timestamps, one is the raw system time, and one is the c
 |---------------|--------------|-------|-------|-------|------|------|------|------|------|------|---------|--------|----|----|----|----|----|----|----|----|----|
 
 
-4. Processed and labelled dataset
+**4. Processed and labelled dataset**
 
 All timestamped data entries are verified to ensure synchronisation. Redundant or duplicated data samples are removed. The data process resulted in a total of 188,565 valid data entries. Another important part of this dataset is the labelling, either ‘0’ or ‘1’ to indicate the presence or absence of obstacles.
 
