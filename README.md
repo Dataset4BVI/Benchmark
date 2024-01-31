@@ -61,8 +61,8 @@ Each entry contains two timestamps, one is the raw system time, and one is the c
 
 All timestamped data entries are verified to ensure synchronisation. Redundant or duplicated data samples are removed. The data process resulted in a total of 188,565 valid data entries. Another important part of this dataset is the labelling, either ‘0’ or ‘1’ to indicate the presence or absence of obstacles.
 
-|accel_x|accel_y|accel_z|gyro_x|gyro_y|gyro_z|quat_i|quat_j|quat_k|quat_real|max_ez1|top1|top2|top3|top4|btm1|btm2|btm3|btm4|btm5|label|
-|-------|-------|-------|------|------|------|------|------|------|---------|-------|----|----|----|----|----|----|----|----|----|-----|
+|accel_x|accel_y|accel_z|gyro_x|gyro_y|gyro_z|quat_i|quat_j|quat_k|quat_real|max_ez1|top1|top2|top3|top4|btm1|btm2|btm3|btm4|btm5|label|scenario|head orientation|timestamp1|timestamp2|mode|speed|
+|-------|-------|-------|------|------|------|------|------|------|---------|-------|----|----|----|----|----|----|----|----|----|-----|-----|-----|-----|-----|-----|-----|
  
 
  
