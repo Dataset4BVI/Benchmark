@@ -6,10 +6,13 @@
 Here we present a novel benchmark dataset with the associated challenge, that is to detect obstacles based on head-mounted sensors and lightweight wearable devices to assist Blind and Visually Impaired individuals (BVIs) navigate in indoor environments.  The challenge encompasses three objectives: (1) as accurately as possible to detect the obstacles on the pathway that likely lead to a collision; (2) as durably as possible on a given amount of battery power for the detection algorithm or model to run; (3) as reliably as possible to compensate natural head turns so nearby objects would not trigger false alarms.  The data provided in the benchmark are collected from the following head mounted sensors: (i) nine low-cost ultrasonic sensors; (ii) one high-end ultrasonic sensor with a larger detection range but higher power consumption; (iii) a 9-Degrees of Freedom (DOF) Inertial Measurement Unit (IMU).  The resulting dataset consists of more than 188,000 unique sequences obtained from multiple subjects walking in three different indoor scenarios.  This benchmark is to facilitate and encourage accurate yet fast obstacle detection solutions that can really benefit BVIs.  
 
 ---
+Dataset also uploaded to Zenodo: [10.5281/zenodo.8050806](https://doi.org/10.5281/zenodo.8050806)
+---
 
 *This study is under the ethics approval of the RMIT University College Human Ethics Advisory Network (Approval number: 25031). The study was conducted in accordance with the principles outlined in the Declaration of Helsinki, which ensures the protection of participants' rights and well-being in research studies involving human subjects.*
 
 ---
+
 
 **1. Hardware setting**
 
