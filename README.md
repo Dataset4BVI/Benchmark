@@ -6,10 +6,6 @@ Here we present a novel benchmark dataset with the associated challenge, that is
 Dataset also uploaded to Zenodo: [10.5281/zenodo.8050806](https://doi.org/10.5281/zenodo.8050806)
 ---
 
-*This study is under the ethics approval of the RMIT University College Human Ethics Advisory Network (Approval number: 25031). The study was conducted in accordance with the principles outlined in the Declaration of Helsinki, which ensures the protection of participants' rights and well-being in research studies involving human subjects.*
-
----
-
 
 **1. Hardware setting**
 
