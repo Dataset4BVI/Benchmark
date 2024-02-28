@@ -1,7 +1,4 @@
 # Obstacle detection on head mounted wearable for the vision impaired dataset
- *Peijie Xu, Andy Song, Ke Wang*
- 
- *RMIT University, Melbourne, Australia* 
 
 Here we present a novel benchmark dataset with the associated challenge, that is to detect obstacles based on head-mounted sensors and lightweight wearable devices to assist Blind and Visually Impaired individuals (BVIs) navigate in indoor environments.  The challenge encompasses three objectives: (1) as accurately as possible to detect the obstacles on the pathway that likely lead to a collision; (2) as durably as possible on a given amount of battery power for the detection algorithm or model to run; (3) as reliably as possible to compensate natural head turns so nearby objects would not trigger false alarms.  The data provided in the benchmark are collected from the following head mounted sensors: (i) nine low-cost ultrasonic sensors; (ii) one high-end ultrasonic sensor with a larger detection range but higher power consumption; (iii) a 9-Degrees of Freedom (DOF) Inertial Measurement Unit (IMU).  The resulting dataset consists of more than 188,000 unique sequences obtained from multiple subjects walking in three different indoor scenarios.  This benchmark is to facilitate and encourage accurate yet fast obstacle detection solutions that can really benefit BVIs.  
 
