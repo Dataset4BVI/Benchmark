@@ -1,16 +1,9 @@
 # Obstacle detection on head mounted wearable for the vision impaired dataset
- *Peijie Xu, Andy Song, Ke Wang*
- 
- *RMIT University, Melbourne, Australia* 
 
 Here we present a novel benchmark dataset with the associated challenge, that is to detect obstacles based on head-mounted sensors and lightweight wearable devices to assist Blind and Visually Impaired individuals (BVIs) navigate in indoor environments.  The challenge encompasses three objectives: (1) as accurately as possible to detect the obstacles on the pathway that likely lead to a collision; (2) as durably as possible on a given amount of battery power for the detection algorithm or model to run; (3) as reliably as possible to compensate natural head turns so nearby objects would not trigger false alarms.  The data provided in the benchmark are collected from the following head mounted sensors: (i) nine low-cost ultrasonic sensors; (ii) one high-end ultrasonic sensor with a larger detection range but higher power consumption; (iii) a 9-Degrees of Freedom (DOF) Inertial Measurement Unit (IMU).  The resulting dataset consists of more than 188,000 unique sequences obtained from multiple subjects walking in three different indoor scenarios.  This benchmark is to facilitate and encourage accurate yet fast obstacle detection solutions that can really benefit BVIs.  
 
 ---
 Dataset also uploaded to Zenodo: [10.5281/zenodo.8050806](https://doi.org/10.5281/zenodo.8050806)
----
-
-*This study is under the ethics approval of the RMIT University College Human Ethics Advisory Network (Approval number: 25031). The study was conducted in accordance with the principles outlined in the Declaration of Helsinki, which ensures the protection of participants' rights and well-being in research studies involving human subjects.*
-
 ---
 
 
@@ -61,8 +54,8 @@ Each entry contains two timestamps, one is the raw system time, and one is the c
 
 All timestamped data entries are verified to ensure synchronisation. Redundant or duplicated data samples are removed. The data process resulted in a total of 188,565 valid data entries. Another important part of this dataset is the labelling, either ‘0’ or ‘1’ to indicate the presence or absence of obstacles.
 
-|accel_x|accel_y|accel_z|gyro_x|gyro_y|gyro_z|quat_i|quat_j|quat_k|quat_real|max_ez1|top1|top2|top3|top4|btm1|btm2|btm3|btm4|btm5|label|
-|-------|-------|-------|------|------|------|------|------|------|---------|-------|----|----|----|----|----|----|----|----|----|-----|
+|accel_x|accel_y|accel_z|gyro_x|gyro_y|gyro_z|quat_i|quat_j|quat_k|quat_real|max_ez1|top1|top2|top3|top4|btm1|btm2|btm3|btm4|btm5|label|scenario|head orientation|timestamp1|timestamp2|mode|speed|
+|-------|-------|-------|------|------|------|------|------|------|---------|-------|----|----|----|----|----|----|----|----|----|-----|-----|-----|-----|-----|-----|-----|
  
 
  
