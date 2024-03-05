@@ -12,7 +12,7 @@ Here we present a novel benchmark dataset with the associated challenge, that is
 |----------------|------------------------|----------------------------------------------------------|
 |HC-SR04         |Operating Range         | 2 cm – 400 cm                                            |
 |ultrasonic      |Accuracy                | ± 3 mm                                                   |
-|sensor          |Effective Angle         | 15°                                                      |
+|sensor          |                        |                                                          |
 |----------------|------------------------|----------------------------------------------------------|
 |MaxSonar-EZ1    |Operating Range         | 30 cm – 500 cm                                           |
 |ultrasonic      |Accuracy                | ± 1 %                                                    |
