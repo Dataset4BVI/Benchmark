@@ -56,5 +56,5 @@ All timestamped data entries are verified to ensure synchronisation. Redundant o
 
 
 ---
-Dataset also uploaded to Zenodo: https://zenodo.org/records/10781048
+Dataset also uploaded to Zenodo: https://zenodo.org/records/10781048 , but without k-fold version.
  
